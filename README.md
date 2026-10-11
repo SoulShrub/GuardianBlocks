@@ -77,3 +77,5 @@ ___Does NOT protect___
 -----
 
 Added both compiled .jar file to Releases, and the sharable .zip to use in MCreator 2026.2. I don't care what happens or changes with this mod, I just wanted it to exist. Just don't sell it.
+
+Also added a Demo World download to see how it works in action! Set yourself to /gamemode survival to see how it works against other players!
