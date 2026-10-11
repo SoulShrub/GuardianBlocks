@@ -16,13 +16,13 @@ ___Items___
 
 - No item/Wrong item: Inactive, does nothing.
 
-- Block of Iron - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 17x5x17 cube centered around the block.
+- Block of Iron - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 9x5x9 cube centered around the block.
 
-- Block of Gold - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 25x7x25 cube centered around the block.
+- Block of Gold - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 17x7x17 cube centered around the block.
 
-- Block of Diamond - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 33x9x33 cube centered around the block.
+- Block of Diamond - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 25x9x25 cube centered around the block.
 
-- Block of Netherite - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 49x13x49 cube centered around the block.
+- Block of Netherite - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 41x13x41 cube centered around the block.
 
 - Block of Emerald - Protects containers from being opened in a 9x9x9 cube centered around the block.
 
