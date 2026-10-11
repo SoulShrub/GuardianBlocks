@@ -12,21 +12,21 @@ This mod was a crucial cornerstone of a server I used to play on as a kid back i
 
 ___Items___
 
-No item/Wrong item: Inactive, does nothing.
+- No item/Wrong item: Inactive, does nothing.
 
-Block of Iron - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 17x5x17 cube centered around the block.
+- Block of Iron - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 17x5x17 cube centered around the block.
 
-Block of Gold - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 25x7x25 cube centered around the block.
+- Block of Gold - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 25x7x25 cube centered around the block.
 
-Block of Diamond - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 33x9x33 cube centered around the block.
+- Block of Diamond - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 33x9x33 cube centered around the block.
 
-Block of Netherite - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 49x13x49 cube centered around the block.
+- Block of Netherite - Protects blocks from being placed or broken by players, creepers, endermen, or TNT in a 49x13x49 cube centered around the block.
 
-Block of Emerald - Protects containers from being opened in a 9x9x9 cube centered around the block.
+- Block of Emerald - Protects containers from being opened in a 9x9x9 cube centered around the block.
 
-Block of Redstone - Protects buttons, levers, and doors from being activated in a 9x9x9 cube centered around the block.
+- Block of Redstone - Protects buttons, levers, and doors from being activated in a 9x9x9 cube centered around the block.
 
-Block of Lapis Lazuli - Protects mobs from being damaged by unauthorized players as well as prevents hostile mobs from spawning in a 9x9x9 cube centered around the block.
+- Block of Lapis Lazuli - Protects mobs from being damaged by unauthorized players as well as prevents hostile mobs from spawning in a 9x9x9 cube centered around the block.
 
 -----
 
@@ -54,4 +54,18 @@ Staff bypass is attached to Creative Mode. If you need to intervene with the usa
 
 ___To-Do___
 
-Still need to protect against liquid griefing. MCreator 2026.2 doesn't make this easy, and I'm not comfortable enough with java coding to make this happen on my own. I'm uploading this to github so that hopefully anyone smart enough can help finish this mod for me. Because it's entirely possible to build a 1 wide dirt bridge over someone's base, and dump lava to spread down over top of it, and that is definitely something I want this mod to prevent with this mod.
+- Still need to protect against liquid griefing. MCreator 2026.2 doesn't make this easy, and I'm not comfortable enough with java coding to make this happen on my own. I'm uploading this to github so that hopefully anyone smart enough can help finish this mod for me. Because it's entirely possible to build a 1 wide dirt bridge over someone's base, and dump lava to spread down over top of it, and that is definitely something I want this mod to prevent with this mod.
+
+- Maybe add the ability for server operators to "click and drag a corner" to extend the range of a single guardian block if they choose to? That might not be so lightweight and might be way more complicated. This one's a hard maybe.
+
+-----
+
+___Does NOT protect___
+
+- Lava/Water/Using Buckets (as of 0.9.1, I hope to have this fixed ASAP with Iron, Gold, Diamond, and Netherite tiers)
+
+- Explosions still damage entities within a Lapis tier Guardian Block's range, this is intended. Take better care of your pets!
+
+- Placing Guardian Blocks __while in creative mode__ does NOT assign an owner tag in NBT, meaning nobody can bypass it except people in creative mode. This is intended, makes for good server spawn locations.
+
+- Pressure Plates, Wooden Gates, and Skulk Sensors still work within a redstone Guardian Block's radius. This is intended, so that spawn areas or player-created public spaces can still feel interactive instead of completely locked down.
