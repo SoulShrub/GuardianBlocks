@@ -56,6 +56,8 @@ ___To-Do___
 
 - Still need to protect against liquid griefing. MCreator 2026.2 doesn't make this easy, and I'm not comfortable enough with java coding to make this happen on my own. I'm uploading this to github so that hopefully anyone smart enough can help finish this mod for me. Because it's entirely possible to build a 1 wide dirt bridge over someone's base, and dump lava to spread down over top of it, and that is definitely something I want this mod to prevent with this mod.
 
+- Same as above with fire spread/fire tick.
+
 - Maybe add the ability for server operators to "click and drag a corner" to extend the range of a single guardian block if they choose to? That might not be so lightweight and might be way more complicated. This one's a hard maybe.
 
 -----
