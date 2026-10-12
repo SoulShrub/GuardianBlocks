@@ -66,7 +66,7 @@ ___To-Do___
 
 ___Does NOT protect___
 
-- Lava/Water/Using Buckets (as of 0.9.2, I hope to have this fixed ASAP with Iron, Gold, Diamond, and Netherite tiers)
+- Lava/Water/Using Buckets (as of 0.9.3, I hope to have this fixed ASAP with Iron, Gold, Diamond, and Netherite tiers)
 
 - Explosions still damage entities within a Lapis tier Guardian Block's range, this is intended. Take better care of your pets!
 
