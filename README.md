@@ -40,9 +40,11 @@ ___Crafting Recipe___
 
 ___Commands___
 
-/gb add [PlayerName] = Adds another player to bypass the protections of the Guardian Block you are actively looking at.
+/gb help = Lists all Guardian Blocks commands, what they do, and how to use them.
 
-/gb remove [PlayerName] = Removes a player from the list of allowed players from the Guardian Block you are actively looking at.
+/gb add [PlayerName] = Adds another player to bypass the protections of the Guardian Block you are actively looking at. Player must be online. Case sensitive and exact match only.
+
+/gb remove [PlayerName] = Removes a player from the list of allowed players from the Guardian Block you are actively looking at. Case sensitive and exact match only.
 
 /gb list = Lists all players allowed to bypass the protections of the Guardian Block you are actively looking at.
 
